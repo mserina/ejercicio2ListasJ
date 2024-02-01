@@ -34,11 +34,10 @@ public class inicio {
 		for (int i = 0; i < listaNumeros.size(); i++) {
            
 			for (int j = i + 1; j < listaNumeros.size(); j++) {
-           
-			// Compara cada elemento [i] con el resto de elementos que le siguen [j]
+		// Compara cada elemento [i] con el resto de elementos que le siguen [j]
 				if (listaNumeros.get(i).equals(listaNumeros.get(j))) {
-			// Si encuentra una repetición, lo reemplazara por 0
-                    listaNumeros.set(j, 0);
+		// Si encuentra una repetición, lo reemplazara por 0
+					listaNumeros.set(j, 0);	
                 }
             }
         }
